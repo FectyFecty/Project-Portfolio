@@ -1,32 +1,41 @@
 const categoryContent = {
   "ui-ux": {
     title: "UI/UX",
-    description: "Interface design projects focused on user flow, wireframes, prototypes, and visual systems.",
-    projects: ["Mobile App Prototype", "Website Redesign", "Usability Study"]
+    description:
+      "Interface design projects focused on user flow, wireframes, prototypes, and visual systems.",
+    projects: ["Mobile App Prototype", "Website Redesign", "Usability Study"],
   },
   "graphic-design": {
     title: "Graphic Design",
-    description: "Visual communication projects for posters, branding, layout design, and campaign assets.",
-    projects: ["Brand Identity", "Poster Series", "Social Media Campaign"]
+    description:
+      "Visual communication projects for posters, branding, layout design, and campaign assets.",
+    projects: ["Brand Identity", "Poster Series", "Social Media Campaign"],
   },
   "2d-illustration": {
     title: "2D Illustration",
-    description: "Illustration works exploring characters, scenes, editorial visuals, and digital drawing style.",
-    projects: ["Character Sheet", "Editorial Illustration", "Digital Poster Art"]
+    description:
+      "Illustration works exploring characters, scenes, editorial visuals, and digital drawing style.",
+    projects: [
+      "Character Sheet",
+      "Editorial Illustration",
+      "Digital Poster Art",
+    ],
   },
   "web-development": {
     title: "Web Development",
-    description: "Front-end projects built with HTML, CSS, JavaScript, and Bootstrap for responsive web experiences.",
-    projects: ["Portfolio Website", "Landing Page", "Interactive Web Page"]
+    description:
+      "Front-end projects built with HTML, CSS, JavaScript, and Bootstrap for responsive web experiences.",
+    projects: ["Portfolio Website", "Landing Page", "Interactive Web Page"],
   },
   "3d-illustration": {
     title: "3D Illustration",
-    description: "3D modeling and rendering projects for product visuals, scenes, objects, and multimedia presentation.",
-    projects: ["Product Render", "Low Poly Scene", "3D Object Study"]
-  }
+    description:
+      "3D modeling and rendering projects for product visuals, scenes, objects, and multimedia presentation.",
+    projects: ["Product Render", "Low Poly Scene", "3D Object Study"],
+  },
 };
 
-document.querySelectorAll('a[href^="#"]').forEach((link) => {
+document.querySelectorAll('a[href^="#"]:not(#copyEmail)').forEach((link) => {
   link.addEventListener("click", (event) => {
     const targetId = link.getAttribute("href");
 
@@ -62,11 +71,14 @@ if (sections.length && navLinks.length) {
         }
 
         navLinks.forEach((link) => {
-          link.classList.toggle("active", link.getAttribute("href") === `#${entry.target.id}`);
+          link.classList.toggle(
+            "active",
+            link.getAttribute("href") === `#${entry.target.id}`,
+          );
         });
       });
     },
-    { rootMargin: "-38% 0px -56% 0px" }
+    { rootMargin: "-38% 0px -56% 0px" },
   );
 
   sections.forEach((section) => observer.observe(section));
@@ -102,9 +114,26 @@ function renderCategoryPage() {
             </div>
           </article>
         </div>
-      `
+      `,
     )
     .join("");
 }
 
 renderCategoryPage();
+
+const copyEmailBtn = document.getElementById("copyEmail");
+
+if (copyEmailBtn) {
+  copyEmailBtn.addEventListener("click", async (e) => {
+    e.preventDefault();
+    console.log("Clicked!");
+
+    try {
+      await navigator.clipboard.writeText("muhammadazwanrazan@gmail.com");
+      console.log("Copied!");
+      alert("Copied!");
+    } catch (err) {
+      console.error(err);
+    }
+  });
+}
