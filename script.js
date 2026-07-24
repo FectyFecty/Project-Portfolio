@@ -5,65 +5,40 @@ const categoryContent = {
       "Interface design projects focused on user flow, wireframes, prototypes, and visual systems.",
     projects: [
       {
-        title: "Mobile App Prototype",
+        title: "Taskify",
         description:
-          "A mobile interface prototype for planning daily student tasks, built around clearer navigation, faster task entry, and calm visual hierarchy. My role covered user flow mapping, wireframing, visual design, and interactive prototyping in Figma.",
-        image: "",
+          "A high-fidelity Figma prototype for a productivity and task management application, designed to help users organize tasks, manage projects, and improve productivity through a clean and intuitive interface.",
+        image: "1x/Taskify.png",
         metadata: [
-          { label: "Role", value: "UI/UX Designer" },
-          { label: "Platform", value: "Mobile Application" },
-          { label: "Focus", value: "User Flow & Prototyping" },
-          { label: "Tools", value: "Figma, FigJam" },
+          { label: "Role", value: "UI Prototype Designer" },
+          { label: "Platform", value: "Desktop Application" },
+          { label: "Category", value: "UI/UX Prototype" },
+          { label: "Team", value: "Team Project (3 Members)" },
         ],
         actions: [
           {
             type: "figma",
             title: "View Prototype",
-            description:
-              "Open the complete Figma design and interactive prototype.",
-            url: "",
+            url: "https://www.figma.com/proto/D52YieCnYBEHHkKOdgNJ2r/Untitled?node-id=3-842&p=f&t=ky4gggW8yu9Esk67-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A842",
           },
         ],
       },
       {
-        title: "Website Redesign",
+        title: "TMD Study Program Introduction",
         description:
-          "A responsive website redesign study focused on simplifying content structure and improving first-time visitor comprehension. I created the information architecture, redesigned key screens, and tested the flow through clickable prototypes.",
-        image: "",
+          "A desktop application prototype designed to introduce prospective and new students to the Digital Multimedia Engineering (TMD) Study Program at Politeknik Negeri Jakarta through an engaging and user-friendly interface.",
+        image: "1x/TMD Study Program Introduction.png",
         metadata: [
-          { label: "Role", value: "Product Designer" },
-          { label: "Platform", value: "Responsive Website" },
-          { label: "Focus", value: "Information Architecture" },
-          { label: "Tools", value: "Figma, Design System" },
+          { label: "Role", value: "UI Prototype Designer" },
+          { label: "Platform", value: "Desktop Application" },
+          { label: "Category", value: "UI/UX Prototype" },
+          { label: "Team", value: "Team Project (4 Members)" },
         ],
         actions: [
           {
             type: "figma",
             title: "View Prototype",
-            description:
-              "Open the complete Figma design and interactive prototype.",
-            url: "",
-          },
-        ],
-      },
-      {
-        title: "Usability Study",
-        description:
-          "A usability evaluation project documenting friction points, task completion issues, and practical interface improvements. I planned test scenarios, gathered feedback, and translated findings into prioritized design recommendations.",
-        image: "",
-        metadata: [
-          { label: "Role", value: "UX Researcher" },
-          { label: "Platform", value: "Digital Product" },
-          { label: "Focus", value: "Testing & Insights" },
-          { label: "Tools", value: "Figma, Research Notes" },
-        ],
-        actions: [
-          {
-            type: "figma",
-            title: "View Prototype",
-            description:
-              "Open the complete Figma design and interactive prototype.",
-            url: "",
+            url: "https://www.figma.com/proto/puvVSiADhmnYfCy6khDirh/PROJEK-UAS?node-id=1-2&starting-point-node-id=1%3A2&scaling=contain&content-scaling=fixed",
           },
         ],
       },
@@ -75,62 +50,59 @@ const categoryContent = {
       "Visual communication projects for posters, branding, layout design, and campaign assets.",
     projects: [
       {
-        title: "Brand Identity",
+        title: "Brand Identity for MacanHizzan",
         description:
-          "A compact visual identity system exploring logo usage, color pairing, typography, and basic brand applications. I developed the concept direction and prepared reusable assets for consistent presentation across media.",
-        image: "",
+          "A branding project for a local UMKM, including logo design, promotional poster, and merchandise mockups to establish a consistent visual identity.",
+        image: "1x/Brand Identity for MacanHizzan.png",
         metadata: [
           { label: "Role", value: "Graphic Designer" },
           { label: "Project Type", value: "Brand Identity" },
           { label: "Software", value: "Adobe Illustrator, Photoshop" },
-          { label: "Output", value: "Logo & Brand Guidelines" },
+          { label: "Output", value: "Logo, Poster & Merchandise" },
         ],
         actions: [
           {
-            type: "behance",
+            type: "drive",
             title: "View Design",
-            description: "Explore the complete design presentation.",
-            url: "",
+            url: "https://drive.google.com/drive/folders/1ddvL6tWuJscFRATCLgf3a_wPWN_YWRe-?usp=drive_link",
           },
         ],
       },
       {
-        title: "Poster Series",
+        title: "Logo Collection",
         description:
-          "A set of posters designed to communicate event information with strong composition and readable hierarchy. My work focused on layout, visual rhythm, image treatment, and preparing export-ready artwork.",
-        image: "",
+          "A collection of logo designs created for various concepts and UI/UX projects, exploring different visual identities, typography, and brand styles.",
+        image: "1x/Logo Collection.png",
         metadata: [
-          { label: "Role", value: "Layout Designer" },
-          { label: "Project Type", value: "Poster Design" },
-          { label: "Software", value: "Adobe Photoshop, Illustrator" },
-          { label: "Output", value: "Print & Digital Posters" },
+          { label: "Role", value: "Graphic Designer" },
+          { label: "Project Type", value: "Logo Design" },
+          { label: "Category", value: "Brand Identity" },
+          { label: "Output", value: "Logo Collection" },
         ],
         actions: [
           {
-            type: "behance",
+            type: "drive",
             title: "View Design",
-            description: "Explore the complete design presentation.",
-            url: "",
+            url: "https://drive.google.com/drive/folders/1Rk40cRqc9rY1_Ip5L-JQP5ejb0ZY6q_6?usp=drive_link",
           },
         ],
       },
       {
-        title: "Social Media Campaign",
+        title: "Comic Club Division Badge",
         description:
-          "A coordinated social media asset set for a digital campaign, including feed posts and story layouts. I created the visual direction, adapted layouts for multiple formats, and maintained consistent campaign messaging.",
-        image: "",
+          "A fantasy-inspired crest designed for the Comic Club student organization, drawing inspiration from classic house emblems to create a distinctive club identity.",
+        image: "1x/Comic Club Division Badge.png",
         metadata: [
-          { label: "Role", value: "Visual Designer" },
-          { label: "Project Type", value: "Campaign Assets" },
-          { label: "Software", value: "Canva, Photoshop" },
-          { label: "Output", value: "Feed Posts & Stories" },
+          { label: "Role", value: "Graphic Designer" },
+          { label: "Project Type", value: "Crest Design" },
+          { label: "Category", value: "Fantasy Branding" },
+          { label: "Output", value: "Club Crest" },
         ],
         actions: [
           {
-            type: "behance",
+            type: "drive",
             title: "View Design",
-            description: "Explore the complete design presentation.",
-            url: "",
+            url: "https://drive.google.com/drive/folders/1rGV2jyFmV23JCStfMnlOQOqUC9R37lz_",
           },
         ],
       },
@@ -142,62 +114,59 @@ const categoryContent = {
       "Illustration works exploring characters, scenes, editorial visuals, and digital drawing style.",
     projects: [
       {
-        title: "Character Sheet",
+        title: "Stylized Character Illustration",
         description:
-          "A character design sheet showing expression, pose, and costume exploration. I handled sketching, line art, color refinement, and presentation layout to make the design readable as a production reference.",
-        image: "",
-        metadata: [
-          { label: "Role", value: "Illustrator" },
-          { label: "Medium", value: "Digital Illustration" },
-          { label: "Software", value: "Photoshop, GIMP" },
-          { label: "Style", value: "Character Design" },
-        ],
-        actions: [
-          {
-            type: "artstation",
-            title: "View Artwork",
-            description: "Open the full-resolution artwork.",
-            url: "",
-          },
-        ],
-      },
-      {
-        title: "Editorial Illustration",
-        description:
-          "An editorial-style illustration created to support a short visual story. The project focused on mood, symbolic composition, and clean rendering that could work alongside written content.",
-        image: "",
+          "A digital character illustration focused on expressive rendering, lighting, color harmony, and composition, with backgrounds and atmosphere thoughtfully crafted to reflect each character's personality and story.",
+        image: "1x/Stylized Character Illustration.png",
         metadata: [
           { label: "Role", value: "Digital Illustrator" },
-          { label: "Medium", value: "Digital Painting" },
-          { label: "Software", value: "Photoshop" },
-          { label: "Style", value: "Editorial Visual" },
+          { label: "Category", value: "Character Illustration" },
+          { label: "Medium", value: "Digital Art" },
+          { label: "Output", value: "Illustration" },
         ],
         actions: [
           {
-            type: "artstation",
+            type: "drive",
             title: "View Artwork",
-            description: "Open the full-resolution artwork.",
-            url: "",
+            url: "https://drive.google.com/drive/folders/170vQnWktWIlW_nquZfg5yL0S1frvY7lr",
           },
         ],
       },
       {
-        title: "Digital Poster Art",
+        title: "Commissioned Artwork",
         description:
-          "A polished digital poster combining illustration, color mood, and typography. I developed the concept from rough thumbnails through final rendering and export for screen presentation.",
-        image: "",
+          "A collection of commissioned digital illustrations created for clients, tailored to their requests while maintaining quality, style, and visual appeal.",
+        image: "1x/Commissioned Artwork.png",
         metadata: [
-          { label: "Role", value: "Illustrator" },
-          { label: "Medium", value: "Digital Poster" },
-          { label: "Software", value: "Photoshop, Illustrator" },
-          { label: "Style", value: "Stylized Poster Art" },
+          { label: "Role", value: "Commission Illustrator" },
+          { label: "Category", value: "Client Work" },
+          { label: "Medium", value: "Digital Art" },
+          { label: "Output", value: "Commissioned Illustrations" },
         ],
         actions: [
           {
-            type: "artstation",
+            type: "drive",
             title: "View Artwork",
-            description: "Open the full-resolution artwork.",
-            url: "",
+            url: "https://drive.google.com/drive/folders/1Kht5fsLDyvAapEnkxtE4KjNPGvPvsKMB?usp=drive_link",
+          },
+        ],
+      },
+      {
+        title: "Comic Production",
+        description:
+          "Contributed to the production of a comic by rendering interior pages and illustrating the cover, ensuring a consistent visual style and polished final presentation.",
+        image: "1x/Comic Production.png",
+        metadata: [
+          { label: "Role", value: "Comic Illustrator" },
+          { label: "Category", value: "Comic Production" },
+          { label: "Medium", value: "Digital Art" },
+          { label: "Output", value: "Published Comic" },
+        ],
+        actions: [
+          {
+            type: "drive",
+            title: "View Artwork",
+            url: "https://drive.google.com/drive/folders/11NBsbSrpoH407VOMoMFA8qW1QwDnysYj?usp=drive_link",
           },
         ],
       },
@@ -209,40 +178,35 @@ const categoryContent = {
       "Front-end projects built with HTML, CSS, JavaScript, and Bootstrap for responsive web experiences.",
     projects: [
       {
-        title: "Cinefy",
+        title: "NafasBaru",
         description:
-          "A movie-themed web interface for browsing film content with a clean responsive layout. I worked on the front-end structure, reusable components, visual styling, and interactions using HTML, CSS, JavaScript, and Bootstrap.",
-        image: "",
+          "NafasBaru is a tobacco education website that provides information about the dangers of smoking through a non-coercive approach. It includes educational content, a smoking cost calculator, a tier-list feature, and an admin dashboard.",
+        image: "1x/NafasBaru.png",
         metadata: [
-          { label: "Role", value: "Frontend Developer" },
-          { label: "Tech Stack", value: "HTML, CSS, JavaScript" },
-          { label: "Framework", value: "Bootstrap" },
-          { label: "Team", value: "Individual" },
+          { label: "Role", value: "Full-Stack Web Developer" },
+          {
+            label: "Tech Stack",
+            value: "HTML, CSS, JavaScript, PHP, MySQL",
+          },
+          { label: "Framework", value: "Laravel, Bootstrap, AdminLTE" },
+          { label: "Team", value: "Team Project (3 Members)" },
         ],
         actions: [
           {
             type: "github",
             title: "View Source Code",
-            description: "Browse the complete GitHub repository.",
-            url: "https://github.com/FectyFecty",
-          },
-          {
-            type: "website",
-            title: "Visit Live Website",
-            description: "Open the deployed application.",
-            url: "",
-            optional: true,
+            url: "https://github.com/s0nchae/projek-uas",
           },
         ],
       },
       {
-        title: "Portfolio Website",
+        title: "Personal Portfolio Website",
         description:
           "A personal portfolio website that organizes design, illustration, and development work into focused category pages. My role included layout design, responsive styling, navigation behavior, and JavaScript-driven project presentation.",
-        image: "",
+        image: "1x/Personal Portfolio Website.png",
         metadata: [
-          { label: "Role", value: "Designer and Developer" },
-          { label: "Tech Stack", value: "HTML, CSS, JavaScript" },
+          { label: "Role", value: "Frontend Web Developer" },
+          { label: "Tech Stack", value: "HTML, CSS, JavaScript, Figma" },
           { label: "Framework", value: "Bootstrap" },
           { label: "Team", value: "Individual" },
         ],
@@ -250,109 +214,90 @@ const categoryContent = {
           {
             type: "github",
             title: "View Source Code",
-            description: "Browse the complete GitHub repository.",
-            url: "https://github.com/FectyFecty",
-          },
-          {
-            type: "website",
-            title: "Visit Live Website",
-            description: "Open the deployed application.",
-            url: "",
-            optional: true,
+            url: "https://github.com/FectyFecty/Project-Portfolio",
           },
         ],
       },
       {
-        title: "Laravel CRUD",
+        title: "Cinefy",
         description:
-          "A Laravel CRUD application for managing structured records through create, read, update, and delete workflows. I built the interface, connected form behavior, and organized views for clear data management.",
-        image: "",
+          "A responsive movie streaming website prototype featuring dynamic movie catalogs, search, genre filtering, and personalized content using JSON and AJAX.",
+        image: "1x/Cinefy.png",
         metadata: [
-          { label: "Role", value: "Web Developer" },
-          { label: "Tech Stack", value: "PHP, Blade, CSS" },
-          { label: "Framework", value: "Laravel" },
-          { label: "Team", value: "Individual" },
+          { label: "Role", value: "JavaScript Developer" },
+          { label: "Tech Stack", value: "HTML, CSS, JavaScript, AJAX, JSON" },
+          { label: "Framework", value: "Bootstrap" },
+          { label: "Team", value: "Team Project (3 Members)" },
         ],
         actions: [
           {
             type: "github",
             title: "View Source Code",
-            description: "Browse the complete GitHub repository.",
-            url: "https://github.com/FectyFecty",
-          },
-          {
-            type: "website",
-            title: "Visit Live Website",
-            description: "Open the deployed application.",
-            url: "",
-            optional: true,
+            url: "https://github.com/s0nchae/uas-cinefy",
           },
         ],
       },
     ],
   },
   "3d-illustration": {
-    title: "3D Illustration",
+    title: "3D Art",
     description:
       "3D modeling and rendering projects for product visuals, scenes, objects, and multimedia presentation.",
     projects: [
       {
-        title: "Product Render",
+        title: "Stylized Character Model",
         description:
-          "A product visualization study focused on modeling, material setup, lighting, and final render presentation. I created the scene composition and adjusted the render for a clean promotional look.",
-        image: "",
+          "A stylized chibi character created from scratch in Blender, including 3D modeling, texture painting, and rigging for animation .",
+        image: "1x/Stylized Character Model.png",
+        metadata: [
+          { label: "Role", value: "3D Character Artist" },
+          { label: "Category", value: "Character Modeling" },
+          { label: "Render Engine", value: "Cycles" },
+          { label: "Output", value: "Character Render" },
+        ],
+        actions: [
+          {
+            type: "drive",
+            title: "View Showcase",
+            url: "https://drive.google.com/drive/folders/1-lsZLqXVcrq1iML22RCLXMCpnVj4pBY9?usp=drive_link",
+          },
+        ],
+      },
+      {
+        title: "Modern House Visualization",
+        description:
+          "A 3D architectural visualization showcasing a modern residential house with attention to modeling, texturing, lighting, and realistic rendering.",
+        image: "1x/Modern House Visualization.png",
         metadata: [
           { label: "Role", value: "3D Artist" },
-          { label: "Software", value: "Blender" },
+          { label: "Category", value: "Residential Design" },
           { label: "Render Engine", value: "Cycles" },
-          { label: "Output", value: "Product Render" },
+          { label: "Output", value: "Still Render" },
         ],
         actions: [
           {
-            type: "sketchfab",
+            type: "drive",
             title: "View Showcase",
-            description: "Explore renders, animations, or 3D models.",
-            url: "",
+            url: "https://drive.google.com/drive/folders/1Ver43qkwwhvZ5hfmfX2otZQKkgr8fd2D?usp=drive_link",
           },
         ],
       },
       {
-        title: "Low Poly Scene",
-        description:
-          "A stylized low-poly environment built to practice shape language, color balance, and spatial composition. I modeled the assets, arranged the scene, and rendered the final visual in Blender.",
-        image: "",
-        metadata: [
-          { label: "Role", value: "3D Illustrator" },
-          { label: "Software", value: "Blender" },
-          { label: "Render Engine", value: "Eevee" },
-          { label: "Output", value: "Low Poly Environment" },
-        ],
-        actions: [
-          {
-            type: "sketchfab",
-            title: "View Showcase",
-            description: "Explore renders, animations, or 3D models.",
-            url: "",
-          },
-        ],
-      },
-      {
-        title: "3D Object Study",
+        title: "Original Character Animation",
         description:
           "A focused object modeling exercise exploring form accuracy, surface detail, and presentation lighting. The project helped strengthen my workflow from reference observation to final rendered output.",
-        image: "",
+        image: "1x/Original Character Animation.png",
         metadata: [
-          { label: "Role", value: "3D Modeler" },
-          { label: "Software", value: "Blender" },
-          { label: "Render Engine", value: "Cycles" },
-          { label: "Output", value: "Model Study & Render" },
+          { label: "Role", value: "3D Animator" },
+          { label: "Category", value: "Character Animation" },
+          { label: "Duration", value: "1 min 30 sec" },
+          { label: "Output", value: "Animated Short" },
         ],
         actions: [
           {
-            type: "sketchfab",
+            type: "drive",
             title: "View Showcase",
-            description: "Explore renders, animations, or 3D models.",
-            url: "",
+            url: "https://drive.google.com/drive/folders/1C_w2m1kBp8bwTUFIL0fRsFExZxi-aKdu?usp=drive_link",
           },
         ],
       },
@@ -364,25 +309,14 @@ let activeProjectIndex = 0;
 let activeCategoryKey = "ui-ux";
 
 const actionIcons = {
-  artstation: "bi-brush",
-  behance: "bi-behance",
   drive: "bi-cloud-arrow-down",
   figma: "bi-bezier2",
   github: "bi-github",
-  pdf: "bi-file-earmark-pdf",
-  sketchfab: "bi-badge-3d",
-  website: "bi-box-arrow-up-right",
-  youtube: "bi-youtube",
 };
 
 const actionFallbackUrls = {
-  artstation: "https://www.artstation.com/",
-  behance: "https://www.behance.net/",
   drive: "https://drive.google.com/",
   figma: "https://www.figma.com/",
-  pdf: "#",
-  sketchfab: "https://sketchfab.com/",
-  youtube: "https://www.youtube.com/",
 };
 
 document.querySelectorAll('a[href^="#"]:not(#copyEmail)').forEach((link) => {
